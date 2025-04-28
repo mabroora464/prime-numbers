@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: url("wp2885570.webp");
+}
+.utility_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(137, 196, 178);
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer-box {
+    height: 100vh;
+}
+
+.inner-box {
+    flex-direction: column;
+    color: rgb(2, 2, 2);
+    gap: 30px;
+}
+
+.btn-container {
+    gap: 15px;
+}
+.btn-style {
+    width: 100px;
+    height: 30px;
+    background: rgb(8, 8, 8);
+    border-radius: 15px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3px;
+    border: none;
+}
+
+.message {
+    background-color: rgb(120, 160, 138);
+    height: 100px;
+    text-align: center;
+    color: black;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.para-text {
+    padding: 20px;
+}
+
+.sub-heading {
+    color: rgb(58, 124, 136);
+    font-size: 25px;
+}
